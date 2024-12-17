@@ -1,0 +1,91 @@
+
+table, th, td {
+  border: 2px solid rgb(62, 185, 64);
+  width: 500px;
+  border-collapse: collapse;
+}
+
+    #topArea{
+        background-color: antiquewhite;
+        height: 100px;
+    }
+
+    .positionMe{
+        position: relative;
+        bottom: 0;
+        left: 50%;
+        margin-left: -1000;
+    }
+
+    .columnText{
+        width: 300px;
+        float: left;
+        background-color: #cccccc;
+        margin-right: 20px;
+        padding: 5px;
+    }
+
+    .column{
+        width: 400px;
+        float: left;
+        background-color: #1be821;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    .column span{
+        
+        display: inline;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .clearText{
+        clear: both;
+    }
+
+	.sampleText{
+
+		font-family: 'Times New Roman', Times, sans-serif;
+		font-size: 13pt;
+        letter-spacing: 2pt;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 24pt;
+		color: blueviolet;
+        width: 300px;
+        border-left: solid 2px #ff0000;
+        border-top: double 3px  rgb(255, 100, 100);
+        border-right: dotted    2px    blue;
+        border-bottom: groove  2px  cyan;
+        padding: 10px;
+        margin: 10px;
+	}
+
+	#sampleText2{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 11pt;
+		color: rgb(54, 44, 148);
+        font-weight: bolder;
+        line-height: 24pt;
+        width: 300px;
+        border: dotted 2px #000000;
+        padding: 30px;
+       margin: 30px;
+       background-color: white;
+	}
+    .bgImage{
+        background: url("Images/w3schools.jpg")  center no-repeat
+    }
+
+    a{
+        color: blue;
+        font-weight: bold;
+        font-size: 10pt;
+        text-decoration: none;
+    }
+
+    a:hover{
+       
+        text-decoration: underline;
+    }

@@ -1,0 +1,82 @@
+:root{
+    --main-by-color:brown;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: minmax(100px, auto);
+    column-gap: 10px;
+    row-gap: 15px;
+}
+.grid-cell{
+    height: 100px;
+    background-color: var(--main-by-color);
+}
+
+#headerArea{
+    width: 900px;
+    height: 75px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background: url("Images/banner_cloud.jpg") top center no-repeat;
+}
+
+#sideArea{
+    width: 300px;
+    float:left;
+    min-height: 900px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: bisque;
+   
+}
+#sideArea a{
+text-decoration: none;
+color: chocolate;
+}
+
+#sideArea a:hover{
+text-decoration: none;
+color: crimson;
+}
+
+
+#textArea{
+    width: 600px;
+    float:left;
+    padding: 5px;
+}
+
+#footerArea{
+    width: 900px;
+    height: 40px;
+    padding: 5px;
+    background-color:var(--main-by-color)
+}
+
+.clearText{
+        clear: both;
+    }
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.animate{
+    animation-name: slidein;
+    animation-duration: 5s;
+}
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
