@@ -22,10 +22,11 @@
 }
 
 #sideArea{
-    width: 300px;
+    width: 200px;
     float:left;
     min-height: 900px;
     padding: 5px;
+    margin-right: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     background-color: bisque;
@@ -43,15 +44,16 @@ color: crimson;
 
 
 #textArea{
-    width: 600px;
-    float:left;
-    padding: 5px;
+    width: 700px;
+   /* float:right; */
+    padding: 10px;
+    margin: 10px;
 }
 
 #footerArea{
     width: 900px;
     height: 40px;
-    padding: 5px;
+    padding: 10px;
     background-color:var(--main-by-color)
 }
 
